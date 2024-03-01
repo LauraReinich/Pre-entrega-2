@@ -12,6 +12,13 @@ html     ul class="red"      en css      .red {color:red}
 
 */
 
+
+*{
+    margin: 0%;
+    padding: 0;
+    }
+
+
 header nav ul{
     list-style-type: none;
     display:flex
@@ -24,6 +31,7 @@ header {
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid rgb(209, 157, 160);
+    padding: 15px;
 }
 
 header a {  
